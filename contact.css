@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-margin: 50px;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  header {
+    /* background-color: var(--purple300); */
+    /* background-color: #212529; */
+    background-color: #08192D;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  nav {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+  }
+
+  .logo {
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    right: 200px;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+  }
+  button:hover {
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+  }
+  nav ul {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+  }
+  nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+  }
+
+  .header-right{
+  display: flex;
+  position: relative;
+  left: 200px;
+  gap: 20px;
+}
+.user-panel{
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  /* border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in; */
+}
+.user-panel #login:hover {
+  border-bottom: 2px solid var(--red600);
+  transition: 0.2s ease-in;
+}
+.user-panel #signup:hover {
+  border-bottom: 2px solid var(--red600);
+  transition: 0.2s ease-in;
+}
+/* -------------------------------------------------HeaderEnd---------------------------------------------------------------------------------- */
+
+.map2{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    margin-top: 90px;
+}
+
+#mapimage{
+    width: 70em;
+}
+
+.getintouch{
+    display: flex;
+    justify-content: space-evenly;
+}
+#gethead{
+    margin-bottom: 15px;
+}
+
+.user{
+    display: flex;
+}
+
+#entermessage{
+    padding: 10px;
+}
+#name{
+    width: 22.3em;
+    height: 3em;
+    margin: 25px 15px 10px 0px;
+    padding: 10px;
+
+}
+#email{
+    width: 22em;
+    height: 3em;
+    margin: 25px 10px 10px 0px;
+    padding: 10px;
+}
+#subject1{
+    width: 45.4em;
+    height: 3em;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+#send{
+    margin-top: 2em;
+    width: 10em;
+    height: 5em;
+    border: 1px solid #42B5F2;
+    border-radius: 8px;
+    /* font-size: medium; */
+    font-weight: bolder;
+}
+#send:hover{
+    color: white;
+    background-color: #42B5F2;
+    cursor: pointer;
+}
+.getintouch{
+    margin-bottom: 10em;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.add, .phone, .mess{  
+  display: flex;
+  flex-direction: column;
+}
+.bx{
+    font-size: 35px;
+}
+
+.first{
+  display: flex;
+}
+.second{
+  display: flex;
+}
+
+.third{
+  display: flex;
+}

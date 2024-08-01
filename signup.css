@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;   
+}
+.fullcontainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #3498db, #e74c3c);
+    background-image: url("images/alexander-shatov-mr4JG4SYOF8-unsplash.jpg");
+    background-size: cover;
+}
+
+form{
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#but1{
+    margin-top: 20px;
+    width: 99%;
+    height: 37px;
+    background-color: blue;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+#heading{
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+#sideimage{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    right: 45px;
+}
+
+#checkbox{
+    position: relative;
+    right: 130px;
+    top: 20px;
+}
+#label1{
+    position: relative;
+    right: 12px;
+    color: gray;
+}
+#para1{
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.635);
+}
+
+
